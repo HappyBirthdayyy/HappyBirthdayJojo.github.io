@@ -38,6 +38,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
   font-family: 'Kaushan Script', cursive;
+  line-height: 1.5;
 }
 .text {
   position: absolute;
@@ -50,4 +51,11 @@ body {
 p {
   margin-bottom: 1.5em;
   line-height: 1.6;
+}
+
+#titre {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 100px;
+  line-height: 1.5;
 }
