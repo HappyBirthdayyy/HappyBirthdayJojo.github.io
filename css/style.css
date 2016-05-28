@@ -16,18 +16,15 @@ body {
   background: #fff;
   box-shadow: 0 0 15px 0 #999;
   border-radius: 10px;
-  /*
+}
+.text {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100vw;
   font-size: 5vw;
-  text-align: center;
-  margin-top: calc(50vh - .5em);
-  font-family: Monoton;
-  color: hsla(35, 99%, 50%, .3);
-  z-index: -1
-  */
+  margin: 50px auto;
+  padding: 20px 100px;
+  text-align: justify
 }
 .text p {
   color:black;
@@ -40,14 +37,7 @@ body {
   font-family: 'Kaushan Script', cursive;
   line-height: 1.5;
 }
-.text {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 5vw;
-  margin: 50px auto;
-  padding: 20px 100px;
-}
+
 p {
   margin-bottom: 1.5em;
   line-height: 1.6;
@@ -58,4 +48,6 @@ p {
   font-family: 'Kaushan Script', cursive;
   font-size: 100px;
   line-height: 1.5;
+  margin-top: 50px;
 }
+
