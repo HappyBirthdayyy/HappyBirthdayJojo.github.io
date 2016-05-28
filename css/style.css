@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body {
+  background: #ee9ca7!important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.email {
+  display: block;
+  width: 600px;
+  height: 700px;
+  margin: 50px auto;
+  background: #fff;
+  box-shadow: 0 0 15px 0 #999;
+  border-radius: 10px;
+  /*
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: calc(50vh - .5em);
+  font-family: Monoton;
+  color: hsla(35, 99%, 50%, .3);
+  z-index: -1
+  */
+}
+.text p {
+  color:black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+.text h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Kaushan Script', cursive;
+}
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 5vw;
+  margin: 50px auto;
+  padding: 20px 100px;
+}
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
