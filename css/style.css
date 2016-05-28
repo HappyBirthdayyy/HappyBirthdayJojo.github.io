@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 body {
-  background: #ee9ca7!important;
+  background: rgb(255, 150, 0)!important;
 }
 * {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
+
 .email {
   display: block;
   width: 600px;
@@ -49,9 +51,31 @@ p {
 #titre {
   text-align: center;
   font-family: 'Kaushan Script', cursive;
-  font-size: 100px;
+  font-size: 150px;
   line-height: 1.5;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
+.btn-cmonaniv {
+  background-color: #e67300;
+  border-color: #e67300;
+  color:white;
+}
+
+.btn-cmonaniv:hover {
+  background-color: #ff6633!important;
+  border-color: #ff6633!important;
+  color:white;
+}
+.btn-cmonaniv:active {
+  background-color: #ff531a!important;
+  border-color: #ff531a!important;
+  color:white;
+}
+.cadeau {
+  cursor:help;
+}
+.gateau {
+  width:70px;
+}
