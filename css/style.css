@@ -1,15 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
-body {
-  background: rgb(255, 150, 0)!important;
-}
+
 * {
   margin: 0;
   padding: 0;
+}
+.rdj {
+  width:500px;
+  cursor:help;
+}
+.center {
+  text-align: center;
+}
+.overflow-hidden {
   overflow: hidden;
 }
-
-
 .email {
   display: block;
   margin: auto;

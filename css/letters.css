@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+body {
+  background: rgb(255, 150, 0)!important;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 20px;
+	text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.paper {
+  position:relative;
+  margin: 3% auto;
+	padding: 24px;
+  width: 500px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.150);
+ 
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.paper:before {
+  z-index: -1;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.150);
+ 
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.2));
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,0.2));
+  box-shadow: 0 0 8px rgba(0,0,0,0.2));
+ 
+  -webkit-transform: rotate(1.8deg);
+  -moz-transform: rotate(1.8deg);
+  -o-transform: rotate(1.8deg);
+  -ms-transform: rotate(1.8deg);
+  transform: rotate(1.8deg);
+}
+ 
+.paper:after {
+  z-index: -2;
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.150);
+ 
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+ 
+  -webkit-transform: rotate(357.5deg);
+  -moz-transform: rotate(357.5deg);
+  -o-transform: rotate(357.5deg);
+  -ms-transform: rotate(357.5deg);
+  transform: rotate(357.5deg);
+}
+
+hr {
+  background: transparent url('http://i.imgur.com/wncb6Fo.png') no-repeat top center;
+  background-size: cover;
+  border: 0;
+  height: 10px;
+}
